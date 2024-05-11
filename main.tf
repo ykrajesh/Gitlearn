@@ -21,3 +21,8 @@ resource "azurerm_resource_group" "rg" {
   location = "West Europe"
 }
 
+resource "azurerm_resource_group" "rgnew" {
+  name     = "example"
+  location = "West Europe"
+}
+
